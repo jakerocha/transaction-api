@@ -15,6 +15,7 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
+    private String descricao;
     private boolean realizado;
     private int prioridade;
 }
